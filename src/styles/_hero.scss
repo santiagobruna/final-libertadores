@@ -1,0 +1,44 @@
+.hero {
+    background-image: url(../images/fundo-liberta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 64px 0 100px 0;
+    position: relative;
+    .container {
+        position: relative;
+    }
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        content: '';
+        opacity: .7;
+    }
+    &__logo{
+        display: block;
+        margin: 0 auto;
+        height: 90px;
+    }
+    &__text {
+        font-size: 40px;
+        line-height: 56px;
+        text-align: center;
+        padding-bottom: 67px;
+        padding-top: 64px;
+    }
+
+    @media (max-width: 650px){
+        padding: 40px 0;
+        &__logo {
+            height: 40px;
+        }
+        &__text {
+            font-size: 20px;
+            line-height: 24px;
+            margin: 24px 0;
+        }
+    }
+}

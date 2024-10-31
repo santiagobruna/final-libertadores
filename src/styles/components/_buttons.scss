@@ -1,0 +1,24 @@
+@use '../variables';
+.button {
+    padding: 12px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    background-color: variables.$corBotao ;
+    color:  #fff;
+    &:hover {
+        background-color: variables.$corBotaoHover ; 
+    }
+    @media (max-width: 1024px){
+        display: flex;
+        align-items: center;
+    }
+    @media(max-width: 640px){
+        display: block;
+        width: 100%;
+        margin: 30px 0;
+    }
+}

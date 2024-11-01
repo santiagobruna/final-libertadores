@@ -10,30 +10,85 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/main.scss" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Evento Final Libertadores da América</title>
   </head>
   <body>
     <header class="hero">
-        <div class="container">
-            <p class="hero__text">A emoção da América está aqui! Acompanhe cada lance, cada vitória, e viva a intensidade da Libertadores como nunca antes. 41d 23h 29m 53s.</p>
-            <div class="infos">
-                <ul class="infos__list">
-                    <li class="infos__list__item">
-                       <b>Localização</b>
-                       Estádio Monumental de Nuñez, em Buenos Aires, capital da Argentina.
-                    </li>
-                    <li class="infos__list__item">
-                       <b>Preço</b>
-                       R$ 1900,00 
-                    </li>
-                    <li class="infos__list__item">
-                       <b>Quando</b>
-                       30 de novembro - horário a definir
-                    </li>
-                </ul>
-                <a href="#" class="button">Garanta a sua vaga</a>
-            </div>
+      <div class="container">
+        <p class="hero__text">
+          A emoção da América está aqui! Acompanhe cada lance, cada vitória, e
+          viva a intensidade da Libertadores como nunca antes. <span id="contador"></span>
+        </p>
+        <div class="infos">
+          <ul class="infos__list">
+            <li class="infos__list__item">
+              <b>Localização</b>
+              Estádio Monumental de Nuñez, em Buenos Aires, capital da
+              Argentina.
+            </li>
+            <li class="infos__list__item">
+              <b>Preço</b>
+              R$ 1900,00
+            </li>
+            <li class="infos__list__item">
+              <b>Quando</b>
+              30 de novembro - horário a definir
+            </li>
+          </ul>
+          <a href="#" class="button">Garanta a sua vaga</a>
         </div>
+      </div>
     </header>
+    <section class="event event--botafogo1" >
+      <div class="container" data-aos="fade-up">
+          <div class="event__details">
+            <h3 class="event__details__title">Botafogo</h3>
+          <p class="event__details__text">
+            Em busca da glória, o Botafogo retorna à Libertadores, trazendo a paixão alvinegra para os gramados da América do Sul. Com a torcida ao lado, o sonho de levantar o troféu se renova.
+          </div>
+          </p>
+          <img class="event__image" src="./images/botafogo.jpg" alt="Botafogo" />
+        </div>
+      </div>
+    </section>
+    <section class="event event--botafogo2 event--image-left" >
+      <div class="container" data-aos="fade-down">
+          <div class="event__details">
+            <h3 class="event__details__title">Botafogo</h3>
+          <p class="event__details__text">
+            Grandes desafios aguardam o Botafogo na Libertadores. Cada partida é uma batalha e um passo importante para mostrar a força alvinegra no cenário continental.
+          </div>
+          </p>
+          <img class="event__image" src="./images/botafogo2.jpg" alt="Botafogo" />
+        </div>
+      </div>
+    </section>
+    <section class="event event--botafogo3">
+      <div class="container" data-aos="fade-right">
+          <div class="event__details">
+            <h3 class="event__details__title">Botafogo</h3>
+          <p class="event__details__text">
+            O Botafogo promete fazer história na Libertadores. Com raça e determinação, o time enfrenta rivais poderosos, mantendo vivo o sonho de conquistar a América
+          </div>
+          </p>
+          <img class="event__image" src="./images/botafogo3.jpg" alt="Botafogo" />
+        </div>
+      </div>
+    </section>
+    <section class="event event--botafogo4 event--image-left">
+      <div class="container"  data-aos="fade-left">
+          <div class="event__details">
+            <h3 class="event__details__title">Botafogo</h3>
+          <p class="event__details__text">
+            A torcida alvinegra vibra a cada jogo da Libertadores. Em busca do título inédito, o Botafogo não se rende, jogando com garra e representando com orgulho o manto preto e branco.
+          </div>
+          </p>
+          <img class="event__image" src="./images/botafogo.jpg" alt="Botafogo" />
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>

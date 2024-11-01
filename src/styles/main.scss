@@ -2,6 +2,7 @@
 @use 'hero';
 @use './components/infos';
 @use './components/buttons';
+@use 'events';
 * {
     margin: 0;
     padding: 0;
@@ -9,4 +10,15 @@
     font-family: "Roboto", serif;
     list-style: none;
     color: #fff;
+}
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    @media(max-width: 640px){ // celulares
+        max-width: 80%;
+    }
+    @media(max-width: 640px){ // tablets / notebooks
+        max-width: 90%;
+    }
 }
